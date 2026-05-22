@@ -32,21 +32,13 @@ export default function LandingPage() {
       <NavbarStyleFullscreen
       navItems={[
         {
-          name: "Home",
-          id: "hero",
-        },
+          name: "Home",          id: "hero"},
         {
-          name: "About",
-          id: "about",
-        },
+          name: "About",          id: "about"},
         {
-          name: "Services",
-          id: "features",
-        },
+          name: "Services",          id: "features"},
         {
-          name: "Contact",
-          id: "contact",
-        },
+          name: "Contact",          id: "contact"},
       ]}
       brandName="SAAR Holdings"
     />
@@ -55,71 +47,44 @@ export default function LandingPage() {
   <div id="hero" data-section="hero">
       <HeroSplitKpi
       background={{
-        variant: "radial-gradient",
-      }}
+        variant: "radial-gradient"}}
       title="We Build. We Hold. We Grow."
       description="SAAR Holdings is a UK-based strategic investment and operational management company partnering with business owners to build long-term value."
       kpis={[
         {
-          value: "100+",
-          label: "Projects Managed",
-        },
+          value: "100+",          label: "Projects Managed"},
         {
-          value: "20%",
-          label: "Average Growth",
-        },
+          value: "20%",          label: "Average Growth"},
         {
-          value: "5+",
-          label: "Sectors Covered",
-        },
+          value: "5+",          label: "Sectors Covered"},
       ]}
       enableKpiAnimation={true}
       imageSrc="http://img.b2bpic.net/free-photo/relax-area-hotel_1150-10812.jpg"
       mediaAnimation="slide-up"
       avatars={[
         {
-          src: "http://img.b2bpic.net/free-photo/man-woman-together-car-dealership_23-2148333029.jpg",
-          alt: "Investment professional 1",
-        },
+          src: "http://img.b2bpic.net/free-photo/man-woman-together-car-dealership_23-2148333029.jpg",          alt: "Investment professional 1"},
         {
-          src: "http://img.b2bpic.net/free-photo/empty-office-workspace-showcases-monitor-with-research-analysis-meetings_482257-118634.jpg",
-          alt: "Investment professional 2",
-        },
+          src: "http://img.b2bpic.net/free-photo/empty-office-workspace-showcases-monitor-with-research-analysis-meetings_482257-118634.jpg",          alt: "Investment professional 2"},
         {
-          src: "http://img.b2bpic.net/free-photo/employee-drinking-coffee-holding-laptop-working-strategy_482257-78092.jpg",
-          alt: "Investment professional 3",
-        },
+          src: "http://img.b2bpic.net/free-photo/employee-drinking-coffee-holding-laptop-working-strategy_482257-78092.jpg",          alt: "Investment professional 3"},
         {
-          src: "http://img.b2bpic.net/free-photo/company-managers-gathering-meeting-room-watching-project-presentation-computer-monitor-together-holding-paper-report-business-communication-teamwork-concept_74855-11622.jpg",
-          alt: "Investment professional 4",
-        },
+          src: "http://img.b2bpic.net/free-photo/company-managers-gathering-meeting-room-watching-project-presentation-computer-monitor-together-holding-paper-report-business-communication-teamwork-concept_74855-11622.jpg",          alt: "Investment professional 4"},
         {
-          src: "http://img.b2bpic.net/free-photo/sky-modern-houston-facade-glass_1203-6006.jpg",
-          alt: "Investment professional 5",
-        },
+          src: "http://img.b2bpic.net/free-photo/sky-modern-houston-facade-glass_1203-6006.jpg",          alt: "Investment professional 5"},
       ]}
       avatarText="Join 500+ institutional partners"
       marqueeItems={[
         {
-          type: "text",
-          text: "Strategic Growth",
-        },
+          type: "text",          text: "Strategic Growth"},
         {
-          type: "text",
-          text: "Operational Excellence",
-        },
+          type: "text",          text: "Operational Excellence"},
         {
-          type: "text",
-          text: "Sustainable Value",
-        },
+          type: "text",          text: "Sustainable Value"},
         {
-          type: "text",
-          text: "Direct Management",
-        },
+          type: "text",          text: "Direct Management"},
         {
-          type: "text",
-          text: "Portfolio Expansion",
-        },
+          type: "text",          text: "Portfolio Expansion"},
       ]}
     />
   </div>
@@ -131,13 +96,9 @@ export default function LandingPage() {
       description="From hospitality to healthcare, property to professional services – we bring hands-on expertise and strategic capital to businesses ready for transformation."
       metrics={[
         {
-          value: "Strategic",
-          title: "Capital Injection",
-        },
+          value: "Strategic",          title: "Capital Injection"},
         {
-          value: "Operational",
-          title: "Management Excellence",
-        },
+          value: "Operational",          title: "Management Excellence"},
       ]}
       imageSrc="http://img.b2bpic.net/free-photo/coworkers-engaging-problem-solving-meeting-corporation_482257-122842.jpg"
       mediaAnimation="slide-up"
@@ -152,34 +113,16 @@ export default function LandingPage() {
       useInvertedBackground={true}
       features={[
         {
-          id: "f1",
-          label: "Finance",
-          title: "Strategic Investment",
-          items: [
-            "Asset acquisition",
-            "Turnaround strategy",
-            "Capital restructuring",
-          ],
+          id: "f1",          label: "Finance",          title: "Strategic Investment",          items: [
+            "Asset acquisition",            "Turnaround strategy",            "Capital restructuring"],
         },
         {
-          id: "f2",
-          label: "Operations",
-          title: "Operational Management",
-          items: [
-            "Process stabilization",
-            "Resource allocation",
-            "Scaling services",
-          ],
+          id: "f2",          label: "Operations",          title: "Operational Management",          items: [
+            "Process stabilization",            "Resource allocation",            "Scaling services"],
         },
         {
-          id: "f3",
-          label: "Growth",
-          title: "Asset Development",
-          items: [
-            "Market positioning",
-            "Value optimization",
-            "Portfolio expansion",
-          ],
+          id: "f3",          label: "Growth",          title: "Asset Development",          items: [
+            "Market positioning",            "Value optimization",            "Portfolio expansion"],
         },
       ]}
       title="Our Core Services"
@@ -194,34 +137,16 @@ export default function LandingPage() {
       useInvertedBackground={false}
       metrics={[
         {
-          id: "m1",
-          value: "35%",
-          title: "Operational Efficiency",
-          items: [
-            "Automated workflows",
-            "Cost reduction",
-            "Resource optimization",
-          ],
+          id: "m1",          value: "35%",          title: "Operational Efficiency",          items: [
+            "Automated workflows",            "Cost reduction",            "Resource optimization"],
         },
         {
-          id: "m2",
-          value: "2.5x",
-          title: "Value Creation",
-          items: [
-            "Asset valuation",
-            "Market share gain",
-            "Revenue synergy",
-          ],
+          id: "m2",          value: "2.5x",          title: "Value Creation",          items: [
+            "Asset valuation",            "Market share gain",            "Revenue synergy"],
         },
         {
-          id: "m3",
-          value: "500",
-          title: "Team Members",
-          items: [
-            "Expert consultants",
-            "Specialized leads",
-            "Direct management",
-          ],
+          id: "m3",          value: "500",          title: "Team Members",          items: [
+            "Expert consultants",            "Specialized leads",            "Direct management"],
         },
       ]}
       title="Proven Performance Metrics"
@@ -236,23 +161,11 @@ export default function LandingPage() {
       useInvertedBackground={true}
       team={[
         {
-          id: "t1",
-          name: "John Doe",
-          role: "CEO",
-          imageSrc: "http://img.b2bpic.net/free-photo/close-up-confident-corporate-woman-professional-entrepreneur-smiling-cross-arms-chest-smiling-enthusiastic-standing-white-background_1258-85600.jpg",
-        },
+          id: "t1",          name: "John Doe",          role: "CEO",          imageSrc: "http://img.b2bpic.net/free-photo/close-up-confident-corporate-woman-professional-entrepreneur-smiling-cross-arms-chest-smiling-enthusiastic-standing-white-background_1258-85600.jpg"},
         {
-          id: "t2",
-          name: "Jane Smith",
-          role: "Head of Finance",
-          imageSrc: "http://img.b2bpic.net/free-photo/smiling-mature-businessman-sitting-staircase-making-hand-gesture_23-2147955296.jpg",
-        },
+          id: "t2",          name: "Jane Smith",          role: "Head of Finance",          imageSrc: "http://img.b2bpic.net/free-photo/smiling-mature-businessman-sitting-staircase-making-hand-gesture_23-2147955296.jpg"},
         {
-          id: "t3",
-          name: "Michael Chen",
-          role: "Operational Lead",
-          imageSrc: "http://img.b2bpic.net/free-photo/friendly-successful-business-woman-posing-with-arms-crossed_74855-2813.jpg",
-        },
+          id: "t3",          name: "Michael Chen",          role: "Operational Lead",          imageSrc: "http://img.b2bpic.net/free-photo/friendly-successful-business-woman-posing-with-arms-crossed_74855-2813.jpg"},
       ]}
       title="Our Executive Team"
       description="Led by experienced industry veterans focused on stability and transformation."
@@ -266,40 +179,15 @@ export default function LandingPage() {
       useInvertedBackground={false}
       testimonials={[
         {
-          id: "1",
-          name: "Sarah Johnson",
-          handle: "@sjohnson",
-          testimonial: "SAAR Holdings transformed our operations completely.",
-          imageSrc: "http://img.b2bpic.net/free-photo/content-beautiful-businesswoman-standing-window_1262-1778.jpg",
-        },
+          id: "1",          name: "Sarah Johnson",          handle: "@sjohnson",          testimonial: "SAAR Holdings transformed our operations completely.",          imageSrc: "http://img.b2bpic.net/free-photo/content-beautiful-businesswoman-standing-window_1262-1778.jpg"},
         {
-          id: "2",
-          name: "Michael Chen",
-          handle: "@mchen",
-          testimonial: "Exceptional capital injection and strategic insight.",
-          imageSrc: "http://img.b2bpic.net/free-photo/young-business-woman-classy-suit-by-office-center_1303-25335.jpg",
-        },
+          id: "2",          name: "Michael Chen",          handle: "@mchen",          testimonial: "Exceptional capital injection and strategic insight.",          imageSrc: "http://img.b2bpic.net/free-photo/young-business-woman-classy-suit-by-office-center_1303-25335.jpg"},
         {
-          id: "3",
-          name: "Emily Rodriguez",
-          handle: "@erod",
-          testimonial: "Their hands-on approach is truly market leading.",
-          imageSrc: "http://img.b2bpic.net/free-photo/modern-office-interior-design-with-wooden-walls-green-vertical-garden_191095-99739.jpg",
-        },
+          id: "3",          name: "Emily Rodriguez",          handle: "@erod",          testimonial: "Their hands-on approach is truly market leading.",          imageSrc: "http://img.b2bpic.net/free-photo/modern-office-interior-design-with-wooden-walls-green-vertical-garden_191095-99739.jpg"},
         {
-          id: "4",
-          name: "David Kim",
-          handle: "@dkim",
-          testimonial: "A reliable partner for long-term growth.",
-          imageSrc: "http://img.b2bpic.net/free-photo/financial-advisor-senior-couple-talking-while-analyzing-documents-consultations-office_637285-1178.jpg",
-        },
+          id: "4",          name: "David Kim",          handle: "@dkim",          testimonial: "A reliable partner for long-term growth.",          imageSrc: "http://img.b2bpic.net/free-photo/financial-advisor-senior-couple-talking-while-analyzing-documents-consultations-office_637285-1178.jpg"},
         {
-          id: "5",
-          name: "Laura Williams",
-          handle: "@lwilliams",
-          testimonial: "They stabilized our business within six months.",
-          imageSrc: "http://img.b2bpic.net/free-photo/businessman-leader-modern-office-with-businesspeople-working_1139-959.jpg",
-        },
+          id: "5",          name: "Laura Williams",          handle: "@lwilliams",          testimonial: "They stabilized our business within six months.",          imageSrc: "http://img.b2bpic.net/free-photo/businessman-leader-modern-office-with-businesspeople-working_1139-959.jpg"},
       ]}
       title="Partner Feedback"
       description="Building sustainable value through trusted long-term partnerships."
@@ -312,20 +200,11 @@ export default function LandingPage() {
       useInvertedBackground={true}
       faqs={[
         {
-          id: "q1",
-          title: "What industries do you operate in?",
-          content: "We cover hospitality, healthcare, property, and professional services.",
-        },
+          id: "q1",          title: "What industries do you operate in?",          content: "We cover hospitality, healthcare, property, and professional services."},
         {
-          id: "q2",
-          title: "How do you add value?",
-          content: "By injecting strategic capital and hands-on operational management.",
-        },
+          id: "q2",          title: "How do you add value?",          content: "By injecting strategic capital and hands-on operational management."},
         {
-          id: "q3",
-          title: "What is the typical exit horizon?",
-          content: "We focus on long-term value and sustainable growth.",
-        },
+          id: "q3",          title: "What is the typical exit horizon?",          content: "We focus on long-term value and sustainable growth."},
       ]}
       title="Frequently Asked Questions"
       description="Common inquiries regarding our investment and operational strategy."
@@ -339,15 +218,13 @@ export default function LandingPage() {
       <ContactText
       useInvertedBackground={false}
       background={{
-        variant: "sparkles-gradient",
-      }}
+        variant: "sparkles-gradient"}}
       text="Ready to discuss your business transformation? Get in touch with our operations team today."
       buttons={[
         {
-          text: "operations@saarholdings.co.uk",
-          href: "mailto:operations@saarholdings.co.uk",
-        },
+          text: "Partnership Inquiry",          href: "mailto:operations@saarholdings.co.uk"},
       ]}
+      buttonClassName="bg-primary-cta text-primary-cta-text font-bold uppercase tracking-wider py-4 px-8 border-2 border-primary-cta hover:bg-transparent hover:text-foreground transition-all duration-300"
     />
   </div>
 
@@ -357,29 +234,19 @@ export default function LandingPage() {
       logoText="SAAR Holdings"
       columns={[
         {
-          title: "Navigation",
-          items: [
+          title: "Navigation",          items: [
             {
-              label: "Home",
-              href: "#hero",
-            },
+              label: "Home",              href: "#hero"},
             {
-              label: "About",
-              href: "#about",
-            },
+              label: "About",              href: "#about"},
           ],
         },
         {
-          title: "Legal",
-          items: [
+          title: "Legal",          items: [
             {
-              label: "Privacy Policy",
-              href: "#",
-            },
+              label: "Privacy Policy",              href: "#"},
             {
-              label: "Terms of Use",
-              href: "#",
-            },
+              label: "Terms of Use",              href: "#"},
           ],
         },
       ]}
